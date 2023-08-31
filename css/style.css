@@ -11,7 +11,6 @@ html{
 .conteiner{
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
     margin-top: 50px;
 }
 
@@ -19,11 +18,17 @@ h1{
     color: rgb(150, 12, 86);
 }
 
+.text{
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: rgb(52, 186, 235);
-    
+    margin-left: 120px;
+    display: block;
 }
+
 /*
 INIZIO CARTE
 */
@@ -34,7 +39,7 @@ INIZIO CARTE
 	width: calc((100% - 40px) / 3);
 	margin-right: 20px;
     height: 100px;
-    background-color: rgb(21, 21, 36);
+    background-color: rgb(10, 10, 18);
     box-shadow: 2px 2px 2px black;
 }
 
