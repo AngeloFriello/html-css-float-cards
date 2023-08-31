@@ -12,20 +12,30 @@ html{
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
+h1{
+    color: rgb(150, 12, 86);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(52, 186, 235);
+    
+}
 /*
-INIZIO COLONNE
+INIZIO CARTE
 */
 
-.col{
+.card{
     float: left;
 	display: inline-block; 
 	width: calc((100% - 40px) / 3);
 	margin-right: 20px;
     height: 100px;
     background-color: rgb(21, 21, 36);
+    box-shadow: 2px 2px 2px black;
 }
 
 .clearfix::after{
@@ -34,13 +44,15 @@ INIZIO COLONNE
     clear: both;
 }
 
-.col:nth-child(3n) {
+.card:nth-child(3n) {
 	margin-right: 0;
 }
 
-.debug .col{
+/*
+.debug .card{
 border: 1px solid black; 
 }
+*/
 
 img{
     max-height: 99px;
@@ -61,4 +73,19 @@ img{
     margin-top: 5px;
     font-size: 13px;
     text-align: left;
+}
+
+/*
+END PAGE
+*/
+
+.end-page{
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    height: 200px;
+}
+
+#end-text{
+    color: white;
+    padding-top: 30px;
 }
