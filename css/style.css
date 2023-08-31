@@ -12,8 +12,53 @@ html{
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+    margin-top: 30px;
 }
 
+/*
+INIZIO COLONNE
+*/
+
 .col{
-    width: 33,3%;
+    float: left;
+	display: inline-block; 
+	width: calc((100% - 40px) / 3);
+	margin-right: 20px;
+    height: 100px;
+    background-color: rgb(21, 21, 36);
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col:nth-child(3n) {
+	margin-right: 0;
+}
+
+.debug .col{
+border: 1px solid black; 
+}
+
+img{
+    max-height: 99px;
+    float: left;
+}
+
+.name {
+    color: white;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.job {
+    color: white;
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: left;
 }
