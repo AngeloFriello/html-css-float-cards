@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.conteiner{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.col{
+    width: 33,3%;
+}
