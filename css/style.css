@@ -23,10 +23,8 @@ h1{
 }
 
 a{
-    text-decoration: none;
     color: rgb(52, 186, 235);
-    margin-left: 120px;
-    display: block;
+    text-decoration: none;
 }
 
 /*
@@ -38,9 +36,14 @@ INIZIO CARTE
 	display: inline-block; 
 	width: calc((100% - 40px) / 3);
 	margin-right: 20px;
-    height: 100px;
     background-color: rgb(10, 10, 18);
     box-shadow: 2px 2px 2px black;
+}
+
+.card_text{
+    margin-left: 120px;
+    color: white;
+    text-align: left;
 }
 
 .clearfix::after{
@@ -65,21 +68,18 @@ img{
 }
 
 .name {
-    color: white;
-    margin-left: 120px;
     margin-top: 10px;
     font-size: 18px;
-    text-align: left;
 }
 
 .job {
-    color: white;
-    margin-left: 120px;
     margin-top: 5px;
     font-size: 13px;
-    text-align: left;
 }
 
+.email {
+    display: block;
+}
 /*
 END PAGE
 */
@@ -87,10 +87,13 @@ END PAGE
 .end-page{
     width: 100%;
     background-color: rgb(32, 32, 32);
-    height: 200px;
+    padding: 30px;
+    margin-top: 30px;
+   
 }
 
 #end-text{
     color: white;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
 }
